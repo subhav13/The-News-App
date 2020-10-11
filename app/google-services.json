@@ -1,0 +1,159 @@
+{
+  "project_info": {
+    "project_number": "596525095416",
+    "firebase_url": "https://livemeetingapp.firebaseio.com",
+    "project_id": "livemeetingapp",
+    "storage_bucket": "livemeetingapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596525095416:android:d6945eeb9d26cf18b25e0d",
+        "android_client_info": {
+          "package_name": "com.mainsm.eEdu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596525095416-o829gl26a06r8j2mdm3uej67k1paqd9n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mainsm.eEdu",
+            "certificate_hash": "96ac69a2b3e083c5f1835673ddb377d533f4cbd2"
+          }
+        },
+        {
+          "client_id": "596525095416-lrhj60ukf70ih5lgrlcmhp4nffh5hvvu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLJmkcnTGfs_CikgVHhVgt4Tjo0YKx51E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596525095416-lrhj60ukf70ih5lgrlcmhp4nffh5hvvu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596525095416:android:7c9bd016a65278cfb25e0d",
+        "android_client_info": {
+          "package_name": "com.mainsm.mylivemeetingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596525095416-jhnve353obb96e4sj3ae88a6j9q5esf4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mainsm.mylivemeetingapp",
+            "certificate_hash": "96ac69a2b3e083c5f1835673ddb377d533f4cbd2"
+          }
+        },
+        {
+          "client_id": "596525095416-lrhj60ukf70ih5lgrlcmhp4nffh5hvvu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLJmkcnTGfs_CikgVHhVgt4Tjo0YKx51E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596525095416-lrhj60ukf70ih5lgrlcmhp4nffh5hvvu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596525095416:android:a701858188e80dd2b25e0d",
+        "android_client_info": {
+          "package_name": "com.mainsm.newssampleapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596525095416-h7rlnpprr3qfode1gjof0ds73us29pl9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mainsm.newssampleapp",
+            "certificate_hash": "96ac69a2b3e083c5f1835673ddb377d533f4cbd2"
+          }
+        },
+        {
+          "client_id": "596525095416-lrhj60ukf70ih5lgrlcmhp4nffh5hvvu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLJmkcnTGfs_CikgVHhVgt4Tjo0YKx51E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596525095416-lrhj60ukf70ih5lgrlcmhp4nffh5hvvu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596525095416:android:46c80b74a07eea08b25e0d",
+        "android_client_info": {
+          "package_name": "com.mainsm.smlivebroadcast"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596525095416-3bkrobvi4340n6q2blo50rmoong9qdmf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mainsm.smlivebroadcast",
+            "certificate_hash": "96ac69a2b3e083c5f1835673ddb377d533f4cbd2"
+          }
+        },
+        {
+          "client_id": "596525095416-lrhj60ukf70ih5lgrlcmhp4nffh5hvvu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLJmkcnTGfs_CikgVHhVgt4Tjo0YKx51E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596525095416-lrhj60ukf70ih5lgrlcmhp4nffh5hvvu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
