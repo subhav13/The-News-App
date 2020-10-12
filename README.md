@@ -1,11 +1,16 @@
 # The-News-App
 ## News app made with newsapi.org Resful API, Dagger 2, MVVM Live data, RxJava, Glide, Firebase, and Retrofit.
 
+<img src="s1.jpeg" width="200"> <img src="s2.jpeg" width="200">
+
+<img src="s3.jpeg" width="200">  <img src="s4.jpeg" width="200">
+
 ## Features
 * Restful API from newsapi.org used,
 * Automatic country detection for getting localised new based on country you are in,
 * Admob Native Ads configured with Firebase Remote Config to make ads visible and enabled and vice versa,
-* Search option for searching news with keywords like, corona, cricket, etc.
+* Search option for searching news with keywords like, corona, cricket etc.,
+* Filter News by category and remove filter afterwards.
 
 ## Librarry and architecture used
 * Dagger 2 for dependency injetion
