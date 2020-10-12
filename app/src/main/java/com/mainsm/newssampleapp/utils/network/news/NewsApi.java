@@ -15,7 +15,8 @@ public interface NewsApi {
     Flowable<NewsHeadlinesResponse> getNewsHeadline(
             @Query("country") String country,
             @Query("apiKey") String api,
-            @Query("q") String searchQuery
+            @Query("q") String searchQuery,
+            @Query("category") String category
     );
 
     @GET

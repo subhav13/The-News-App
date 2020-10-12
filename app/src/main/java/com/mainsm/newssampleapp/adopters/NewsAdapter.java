@@ -79,7 +79,7 @@ public class NewsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
             viewHolder.description.setText(item.getDescription());
             viewHolder.source.setText(item.getSource().getName());
             viewHolder.time.setText(MessageFormat.format(" • {0}", AppUtils.DateToTimeFormat(item.getPublishedAt(), context)));
-
+            viewHolder.publishedAt.setText(AppUtils.DateFormat(item.getPublishedAt(), context));
             viewHolder.itemView.setOnClickListener(view -> {
                 Intent intent = new Intent(context, WebViewActivity.class);
                 intent.putExtra("url", item.getUrl());
@@ -109,7 +109,6 @@ public class NewsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
                     @Override
                     public void onAdFailedToLoad(LoadAdError loadAdError) {
                         super.onAdFailedToLoad(loadAdError);
-                        ((AdViewHolder)holder).Adtemplate.destroyNativeAd();
                     }
                 })
                 .withNativeAdOptions(new NativeAdOptions.Builder()
@@ -139,7 +138,7 @@ public class NewsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     static class MyHolder extends RecyclerView.ViewHolder {
         ImageView thumbnail;
-        TextView title, description, source, time;
+        TextView title, description, source, time, publishedAt;
         public MyHolder(@NonNull View itemView) {
             super(itemView);
             thumbnail = itemView.findViewById(R.id.thumb);
@@ -147,6 +146,8 @@ public class NewsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
             description = itemView.findViewById(R.id.description);
             source = itemView.findViewById(R.id.source);
             time = itemView.findViewById(R.id.time_ago);
+            publishedAt = itemView.findViewById(R.id.published_date);
+
 
         }
     }

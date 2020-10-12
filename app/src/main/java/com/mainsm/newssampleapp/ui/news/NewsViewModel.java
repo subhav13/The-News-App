@@ -38,7 +38,7 @@ public class NewsViewModel extends ViewModel {
     public NewsViewModel(NewsApi newsApi) {
         this.api = newsApi;
         Log.e(TAG, "NewsViewModel: " + "VIEW MODEL RUNNING" );
-        newsApi.getNewsHeadline("us", Constants.API_KEY, "")
+        newsApi.getNewsHeadline("us", Constants.API_KEY, "", "")
                 .toObservable()
                 .subscribeOn(Schedulers.io())
                 .subscribe(new io.reactivex.Observer<NewsHeadlinesResponse>() {
@@ -64,14 +64,14 @@ public class NewsViewModel extends ViewModel {
                 });
 
     }
-    public LiveData<Resource<NewsHeadlinesResponse>> observeNews(String country, String search){
+    public LiveData<Resource<NewsHeadlinesResponse>> observeNews(String country, String search, String category){
         if(mNewRes == null){
             mNewRes = new MediatorLiveData<>();
             mNewRes.setValue(Resource.loading(null));
         }
         Log.e(TAG, "observeNews: " + country);
         final LiveData<Resource<?>> source = LiveDataReactiveStreams.fromPublisher(
-                api.getNewsHeadline(country, Constants.API_KEY, search)
+                api.getNewsHeadline(country, Constants.API_KEY, search, category)
                 .onErrorReturn(throwable -> {
                     NewsHeadlinesResponse response = new NewsHeadlinesResponse();
                     response.setTotalResults(-1);
