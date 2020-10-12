@@ -1,6 +1,10 @@
 # The-News-App
 ## News app made with newsapi.org Resful API, Dagger 2, MVVM Live data, RxJava, Glide, Firebase, and Retrofit.
 
+<img src="s1.PNG" width="200"> <img src="s2.PNG" width="200">
+
+<img src="s3.PNG" width="200">  <img src="s4.PNG" width="200">
+
 ## Features
 * Restful API from newsapi.org used,
 * Automatic country detection for getting localised new based on country you are in,
